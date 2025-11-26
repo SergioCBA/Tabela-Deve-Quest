@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        thead{
+            background-color: #1b85e7;
+        }
+        th,td {
+            border: 1px solid #808080;
+            text-align: center;
+        }
+        table{
+            border: 2px solid #000000;
+        }
+        tfoot{
+            background-color: #ff9100;
+        }
+    </style>
+</head>
+<body>
+    
+<table>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Black friday</th>
+        </tr>
+
+    
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td >Camisa</td>
+            <td>5</td>
+            <td>R$5,00</td>
+            <td rowspan="2">Sim</td>
+        </tr>
+        <tr>
+            <td>Calça Social</td>
+            <td>2</td>
+            <td>R$10,00</td>
+            
+        </tr>
+        <tr>
+            <td>Sapato</td>
+            <td>1</td>
+            <td>R$20,00</td>
+            <td>Não</td>
+        </tr>
+        
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>R$35</td>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+</body>
+</html>
